@@ -11,3 +11,65 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#footer-wrap {
+	padding: 20px;
+	background: #eee;
+	border-top: 1px solid #ddd;
+}
+
+#footer-wrap p,
+#footer-wrap li {
+	font-size: 1.2rem;
+	font-weight: 100;
+	color: #333;
+}
+
+#footer-wrap li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+#fixed-menu {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	z-index: 2;
+}
+
+#fixed-menu a {
+	display: block;
+	width: 80px;
+	height: 80px;
+	padding-top: 16px;
+	box-sizing: border-box;
+	background: #fff;
+	border-radius: 200px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	text-align: center;
+}
+
+#fixed-menu a img {
+	display: block;
+	width: 24px;
+	margin: 0 auto 2px auto;
+}
+
+#fixed-menu a span {
+	font-size: 1.4rem;
+	font-weight: 800;
+}
+
+#header-wrap {
+	position: relative;
+	padding: 24px 20px 20px 20px;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+}
+
+#header-wrap h1 {
+	line-height: 100%;
+}
+
+#header-wrap h1 img {
+	height: 70px;
+}
